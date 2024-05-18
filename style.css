@@ -185,7 +185,7 @@ h1 {
     }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 986px) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -219,7 +219,7 @@ h1 {
         grid-row-start: 4;
         grid-row-end: span 4;
     }
-}   
+}
 
 @media (min-width: 60.5rem) {
     .wrapper {
@@ -229,7 +229,7 @@ h1 {
     }
 
     body {
-        padding: 1.563rem 14rem;
+        padding: 12rem 10rem;
     }
 
     .first {
