@@ -23,25 +23,26 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     margin-top: 3rem;
 }
 
 .card {
-    border-radius: 8px;
+    border-radius: 0.5rem;
     padding: 1.7rem;
     position: relative;
+    box-shadow: 0px 3px 8px hsla(0, 0%, 0%, 0.24);
 }
 
 .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px hsla(0, 0%, 0%, 0.35);
+    transform: translateY(-0.188rem);
 }
 
 .quotation {
     position: absolute;
-    right: 20px;
-    margin-top: -27px;
+    right: 1.25rem;
+    margin-top: -1.688rem;
     opacity: 70%;
 }
 
@@ -49,7 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .profile p { 
@@ -59,26 +60,26 @@ body {
 
 small {
     color: hsl(0, 0%, 100%, 70%);
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .profile img {
     border-radius: 50%;
-    border: 2px solid hsl(0, 0%, 100%,30%);
-    width: 32px;
-    margin-right: 10px;
+    border: 0.125rem solid hsl(0, 0%, 100%,30%);
+    width: 2.188rem;
+    margin-right: 0.625rem;
 }
 
 h1 {
     color: var(--White);
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: 1.25rem;
+    font-size: 1.563rem;
     font-weight: 450;
 }
 
 .quote {
     color: hsl(0, 0%, 100%, 50%);
-    font-size: 13px;
+    font-size: 0.813rem;
     font-weight: 400;
 }
 
@@ -116,7 +117,7 @@ h1 {
 }
 
 .fourth img {
-    border: 2px hsl(283, 100%, 32%) solid;
+    border: 0.125rem hsl(283, 100%, 32%) solid;
 }
 
 .fifth {
@@ -141,9 +142,9 @@ h1 {
 }
 
 .attribution {
-     font-size: 11px;
+     font-size: 0.688rem;
      text-align: center;
-     margin-top: 20px;
+     margin-top: 1.25rem;
 }
 
 .attribution a {
@@ -162,7 +163,7 @@ h1 {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 450;
     }
 
@@ -184,7 +185,7 @@ h1 {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -220,7 +221,7 @@ h1 {
     }
 }   
 
-@media (min-width: 968px) {
+@media (min-width: 60.5rem) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -228,11 +229,7 @@ h1 {
     }
     
     body {
-        padding: 1.563rem 4rem;
-    }
-
-    .card {
-        box-shadow: 0px 8px 24px hsla(210, 8%, 62%, 0.2);
+        padding: 1.563rem 12rem;
     }
 
     .first {
@@ -268,6 +265,20 @@ h1 {
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: span 3;
+    }
+
+    .fifth .quote {
+        width: 90%;
+        margin-top: 2.188rem;
+    }
+
+    .third .quote {
+        width: 90%;
+        margin-top: 1.25rem;
+    }
+
+    .third h1 {
+        width: 83%;
     }
 
 }
