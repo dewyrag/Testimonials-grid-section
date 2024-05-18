@@ -287,4 +287,11 @@ h1 {
         margin-top: -22rem;
    }
 
+   .quotation {
+        position: absolute;
+        right: 6rem;
+        margin-top: -1.688rem;
+        opacity: 70%;
+}
+
 }
