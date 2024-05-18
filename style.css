@@ -227,9 +227,9 @@ h1 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 20% 20% 20%;
     }
-    
+
     body {
-        padding: 1.563rem 12rem;
+        padding: 1.563rem 14rem;
     }
 
     .first {
